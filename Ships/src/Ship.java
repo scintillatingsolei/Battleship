@@ -30,4 +30,11 @@ public class Ship{
 
         return result;
     }
+    /**
+     * Returns an array of the ship.
+     * @return an array of ShipSquares for the ship.
+     */
+    public ShipSquare[] getShip(){
+        return ship;
+    }
 }
