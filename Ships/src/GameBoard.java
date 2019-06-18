@@ -2,6 +2,6 @@ public class GameBoard {
     private ShipSquare[][] board; //gameboard
 
     public GameBoard(){
-        board = new ShipSquare[10][10];
+        board = new ShipSquare[20][20];
     }
 }
